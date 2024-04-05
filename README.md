@@ -12,7 +12,7 @@ this is a simple python script and web extension in js
 	other requirments:
 		chess engine: stockfish : https://stockfishchess.org/download/
    
-	How to Get Started:
+How to Get Started:
 	run the main.py: 
 		python3 main.py
 	
