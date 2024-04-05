@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body style="width:250px; height: 250px;">
+<div style="display: flex;flex-direction: column; width: 100%; height: 100%;">
+    <p>socket manager</p>
+
+    <div style="width:100%; height: 100% display:flex; flex-direction: column;">
+        <div style="width:100%;">
+            <p>msg</p>
+            <input style="border-radius: 5px; width:70%; margin:0px 20px; height:25px" type="text" name="msgInput"
+                   id="commandInput" placeholder="msg">
+        </div>
+        <button id="btnSend" style="margin:10px 20%; width: 120px;">send</button>
+    </div>
+
+
+    <div style="display:flex; flex-direction: row; width:100%;justify-content: space-around; margin:20px auto">
+        <button id="btnStart" style="width:70px">start</button>
+        <button id="btnStop" style="width:70px">stop</button>
+    </div>
+
+    <div>
+        <button id="sendHtml" style="">send html</button>
+    </div>
+
+</div>
+<script type="text/javascript" src="backend.js"></script>
+</body>
+</html>

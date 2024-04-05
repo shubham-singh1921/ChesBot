@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "HtmlSocket",
+  "version": "1.0",
+
+  "description": "forms socket connection with backend script",
+
+  "icons": {
+    "48": "icons/logo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions":[
+  	"activeTab",
+  	"tabs"
+  ],
+  "browser_action":{
+    "default_popup":"popup.html"
+  },
+  "background": {
+    "scripts": ["backend.js","websocket.js"],
+    "persistent": false
+  }
+}
+
